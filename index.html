@@ -1,432 +1,169 @@
-<!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!-- ====== SWIPER CSS =======-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-
-        <!-- ===== CSS ===== -->
-        <link rel="stylesheet" href="assets/css/styles.css">
-
-        <!-- ===== Unicons ===== -->
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-
-        <title>Sagnik Hore</title>
-        
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="#" class="nav__logo">Sagnik</a>
-
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list grid">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link">
-                                <i class="uil uil-estate nav__icons"></i> Home
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">
-                                <i class="uil uil-user nav__icons"></i> About
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#skills" class="nav__link">
-                                <i class="uil uil-arrow nav__icons"></i> Skills
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#qualification" class="nav__link">
-                                <i class="uil uil-briefcase-alt nav__icons"></i> Qualifications
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#projects" class="nav__link">
-                                <i class="uil uil-laptop nav__icons"></i> Projects
-                            </a>
-                        </li>
-                    </ul>
-                    <i class="uil uil-times nav__close" id="nav-close"></i>
-                </div>
-
-                <div class="nav__btn">
-                    <div class="nav__toogle" id="nav-toggle">
-                        <i class="uil uil-apps"></i>
-                    </div>
-                </div>
-            </nav>
-        </header>
-
-
-        <main class="main">
-
-            <!-- Home Section -->
-            <section class="home section" id="home">
-                <div class="home__container container grid">
-                    <div class="home__content grid">
-                        <div class="home__social">
-                            <a href="https://www.linkedin.com/in/sagnik-hore-33a8292a6/" target="_blank" class="home__social-icon">
-                                <i class="uil uil-linkedin"></i>
-                            </a>
-                            <a href="https://github.com/Shback007" target="_blank" class="home__social-icon">
-                                <i class="uil uil-github"></i>
-                            </a>
-                            <a href="https://twitter.com/Sagnik08374742" target="_blank" class="home__social-icon">
-                                <i class="uil uil-twitter"></i>
-                            </a>
-                        </div>
-
-                        <div class="home__image">
-                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <mask id="mask0" mask-type="alpha">
-                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                                </mask>
-                                <g mask="url(#mask0)">
-                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-
-                                    <image class="home__blob-img" x='12' y='18' xlink:href="assets/img/ar.png"/>
-                                </g>
-                            </svg>
-                        </div>
-
-                        <div class="home__data">
-                            <h1 class="home__title">Hey! 👋</h1>
-                            <p class="home__description">My name is <b>Sagnik Hore</b> and 
-                                I'm a Web Developer and a web3 enthusiast.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- About Section -->
-            <section class="about section" id="about">
-                <h2 class="section__title">About me</h2>
-                <div class="about__container container grid">
-                    <img style="height: 250px; width: 250px;" src="assets/img/Sagnik.jpeg" alt="" class="about__img">
-
-                    <div class="about__data">
-                        <p style="font-size: 18px;" class="about__description">I'm a 3rd Year student currently pursuing B.Tech in Computer Science and Engineering from University of Engineering and Management, Kolkata.
-                            <br>
-                            I'm a 👨‍💻 Web Developer  and also started learning Solidity and to contribute to Open-Source projects and participate in Hackathons.
-                        </p>
-                        
-                    </div>
-                </div>
-            </section>
-
-            <!-- Skills Section -->
-            <section class="skills section" id="skills">
-                <h2 class="section__title">My Skills</h2>
-
-                <div class="skills__container container grid">
-                    <div>
-                        
-                        <!----- Frontend Developemnt ------>
-                        <div class="skills__content skills__close">
-                            <div class="skills__header">
-                                <i class="uil uil-arrow skills__icon"></i>
-
-                                <div>
-                                    <h1 class="skills__title">Frontend Development</h1>
-                                </div>
-
-                                <i class="uil uil-arrow-down skills__arrow"></i>
-                            </div>
-
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">HTML</h3>
-                                        <span class="skills__number">85%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
+<html>
+<head>
+    <title>Ninja Fighting game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<style>
+    * {
+        box-sizing: border-box;
+        font-family:'Press Start 2P' , cursive;
+    }body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        background: black;
+    }
+    canvas{
+        border-radius: 10px;
+    }
     
-                                
-                                    <div class="skills__data">
-                                        <div class="skills__titles">
-                                            <h3 class="skills__name">CSS</h3>
-                                            <span class="skills__number">70%</span>
-                                        </div>
-                                        <div class="skills__bar">
-                                            <span class="skills__percentage skills__css"></span>
-                                        </div>
-                                    </div>
-    
-                                    <div class="skills__data">
-                                        <div class="skills__titles">
-                                            <h3 class="skills__name">JavaScript</h3>
-                                            <span class="skills__number">30%</span>
-                                        </div>
-                                        <div class="skills__bar">
-                                            <span class="skills__percentage skills__js"></span>
-                                        </div>
-                                    </div>
-    
-                                    <div class="skills__data">
-                                        <div class="skills__titles">
-                                            <h3 class="skills__name">Bootstrap</h3>
-                                            <span class="skills__number">10%</span>
-                                        </div>
-                                        <div class="skills__bar">
-                                            <span class="skills__percentage skills__bootstrap"></span>
-                                        </div>
-                                    </div>
-    
-                                    <div class="skills__data">
-                                        <div class="skills__titles">
-                                            <h3 class="skills__name">React</h3>
-                                            <span class="skills__number">0%</span>
-                                        </div>
-                                        <div class="skills__bar">
-                                            <span class="skills__percentage skills__react"></span>
-                                        </div>
-                                    </div>
-    
-                            </div>
+</style>
+</head>
+<body>
+    <!-- Red container div -->
 
-                        </div>
+    <div style="position: relative; display: inline-block; ">
+        <!-- Smaller Red container div -->
 
-                        <!----- Tools ------>
-                        <div class="skills__content skills__close">
-                            <div class="skills__header">
-                                <i class="uil uil-wrench skills__icon"></i>
+        <div style="
+        position: absolute; 
+        display: flex; 
+        width: 100%; 
+        align-items:center; 
+        padding: 20px;">
+            <!-- player health -->
 
-                                <div>
-                                    <h1 class="skills__title">Tools</h1>
-                                </div>
+            <div style="
+            position:relative; 
+            width: 100%; 
+            display: flex; 
+            justify-content: flex-end;
+            border: 4px solid wheat;
+            border-right: none;">
 
-                                <i class="uil uil-arrow-down skills__arrow"></i>
-                            </div>
+                <div style=" 
+                background-color: red;
+                 height: 30px; 
+                 width: 100%;"></div>
 
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Git</h3>
-                                        <span class="skills__number">85%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__git"></span>
-                                    </div>
-                                </div>
+                <div id = "playerHealth" style="
+                position: absolute; 
+                background:#818CF8; 
+                top: 0; 
+                right: 0; 
+                bottom: 0;
+                width: 100%;"></div>
+            </div>
 
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">GitHub</h3>
-                                        <span class="skills__number">90%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__github"></span>
-                                    </div>
-                                </div>
-    
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Android Studio</h3>
-                                        <span class="skills__number">85%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__android"></span>
-                                    </div>
-                                </div>
-    
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">VS Code</h3>
-                                        <span class="skills__number">85%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__vscode"></span>
-                                    </div>
-                                </div>
-    
-                            </div>
+            <!-- timer -->
 
-                        </div>
+            <div id = "timer" style=" 
+            background-color:black ;
+            width: 100px;
+            height: 50px;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color : white;
+            border: 4px solid white;">10</div>
 
-                        <!----- Others ------>
-                        <div class="skills__content skills__close">
-                            <div class="skills__header">
-                                <i class="uil uil-swatchbook skills__icon"></i>
+            <!-- enemy health -->
 
-                                <div>
-                                    <h1 class="skills__title">Other</h1>
-                                </div>
+            <div style="
+            position:relative; 
+            width:100%;
+            border :4px solid wheat;
+            border-left: none;">
 
-                                <i class="uil uil-arrow-down skills__arrow"></i>
-                            </div>
+                <div style=
+                " background-color: red;
+                 height: 30px;"></div>
 
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Technical Writing</h3>
-                                        <span class="skills__number">80%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__writing"></span>
-                                    </div>
-                                </div>
-    
-                                
-                                    <div class="skills__data">
-                                        <div class="skills__titles">
-                                            <h3 class="skills__name">UI/UX Designing</h3>
-                                            <span class="skills__number">80%</span>
-                                        </div>
-                                        <div class="skills__bar">
-                                            <span class="skills__percentage skills__designing"></span>
-                                        </div>
-                                    </div>
-    
-                                    <div class="skills__data">
-                                        <div class="skills__titles">
-                                            <h3 class="skills__name">Problem Solving</h3>
-                                            <span class="skills__number">85%</span>
-                                        </div>
-                                        <div class="skills__bar">
-                                            <span class="skills__percentage skills__problemsolve"></span>
-                                        </div>
-                                    </div>    
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Qualifications -->
-            <section class="qualification section" id="qualification">
-                <h2 class="section_title">Qualifications</h2>
-        
-                <div class="qualification_container container">
-                <div class="qualification_tabs">
-                    <div class="qualification_button button-flex" id="educationheader">
-                    <i class="uil uil-graduation-cap qualification_icon"></i>Education
-                    </div>
-        
-                    
-                </div>
-        
-                <div class="qualification_sections">
-                    <!-- Educational Qualification -->
-                    <div class="qualification_content qualification_active" data-content id="education">
-                    <div class="qualification_data">
-                        <div>
-                        <h3 class="qualification_title">B.Tech Computer Science and Engineering(AIML)</h3>
-                        <span class="qualification_subtitle">University of Engineering and Management, Kolkata.</span>
-                        <div class="qualification_calendar">
-                            <i class="uil uil-calendar-alt"></i>
-                            2021 - 2025
-                        </div>
-                        </div>
-        
-                        <div>
-                        <span class="qualification_circle"></span>
-                        <span class="qualification_line"></span>
-                        </div>
-                    </div>
-                    <div class="qualification_data">
-                        <div></div>
-        
-                        <div>
-                        <span class="qualification_circle"></span>
-                        <span class="qualification_line"></span>
-                        </div>
-        
-                        <div>
-                        <h3 class="qualification_title">Senior Secondary School</h3>
-                        <span class="qualification_subtitle">Netaji Centenary School, Dinhata, Coach Behar</span>
-                        <div class="qualification_calendar">
-                            <i class="uil uil-calendar-alt"></i>
-                            2019 - 2021
-                        </div>
-                        </div>
-                    </div>
-        
-                    </div>
-        
-                    
-                </div>
-            </section>
-
-            <!-- Portfolio -->
-            <section class="portfolio section" id="projects">
-                <h2 class="section__title">Projects</h2>
-        
-                <div class="portfolio__container container swiper-container">
-                    <div class="swiper-wrapper">
-        
-                        <!-- Project 4 -->
-                        <div class="portfolio__content grid swiper-slide">
-                        <img src="https://github.com/Shback007/Ninja-Fighting-Game/blob/main/img/demo.png?raw=true" alt="" class="portfolio__img">
-            
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Ninja-Fighting-Game</h3>
-                            <p class="portfolio__description">
-                                This repository serves as a playground for game developers, JavaScript enthusiasts, and aspiring programmers to explore the intricacies of game development. Through this project, we dive into the fundamentals of building a fighting game, incorporating essential concepts such as character movement, combat mechanics, and game dynamics.    
-                            </p>
-                            <a href="https://github.com/Shback007/Ninja-Fighting-Game" target="_blank" class="button button-flex button-small portfolio__button">
-                            Check out
-                            <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                        </div>
-            
-                        
-                    </div>
-        
-                <!-- Arrows -->
-                <div class="swiper-button-next">
-                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-                </div>
-                <div class="swiper-button-prev">
-                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-                </div>
-                <!-- Pagination -->
-                <div class="swiper-pagination"></div>
-                </div>
-            </section>
-
-            <!-- Footer -->
-            <footer class="footer">
-                <div class="footer_bg">
-                <div class="footer_container container grid">
-                    <div>
-                    <h1 class="footer_title">Sagnik Hore</h1>
-                    <span class="footer_subtitle">Thank you for visiting my personal portfolio website. Connect with me over socials.</span>
-                    </div>
-
-                
-                    <div class="footer_socials">
-                    <a href="https://www.linkedin.com/in/sagnik-hore-33a8292a6/" target="_blank" class="footer_social">
-                        <i class="uil uil-linkedin-alt"></i>
-                    </a>
-                    <a href="https://twitter.com/Sagnik08374742" target="_blank" class="footer_social">
-                        <i class="uil uil-twitter-alt"></i>
-                    </a>
-                    </div>
-                </div>
-                </div>
-            </footer>
-
-        </main>
-
-
-        <!-- ======= SWIPER JS ======-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
-
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+                <div id = "enemyHealth" style="
+                position: absolute;
+                background:#818CF8; 
+                top: 0;
+                right: 0;
+                left: 0; 
+                bottom: 0;"></div>
+            </div>
+        </div>
+        <div id="displayText" style="position: absolute; color: white; display: none;
+        align-items: center; justify-content: center; top: 0; right: 0; bottom: 0; left: 0;">Tie</div>
+    <canvas></canvas>
+    <div
+      style="
+        position: absolute;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 10;
+      "
+    >
+      <button
+        id="beginButton"
+        style="
+          padding: 16px 26px;
+          border-radius: 0;
+          background: white;
+          border: black 3px solid;
+          color: black;
+          cursor: pointer;
+        "
+      >
+        Begin
+      </button>
+    </div>
+    <div
+      id="tutorial"
+      style="
+        position: absolute;
+        color: white;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 10;
+        background: rgba(0, 0, 0, 0.75);
+      "
+    >
+      <img src="./img/howToPlay.png" alt="" />
+      <button
+        id="startButton"
+        style="
+          padding: 16px 26px;
+          border-radius: 0;
+          background: white;
+          border: black 3px solid;
+          color: black;
+          cursor: pointer;
+          position: absolute;
+          bottom: 100px;
+        "
+      >
+        Start 
+      </button>
+    </div>
+    </div>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+    integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+    <script src="./js/classes.js"></script>
+    <script src="./js/utils.js"></script>
+    <script src="script.js"></script>
+</body>
 </html>
